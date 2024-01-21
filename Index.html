@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>HTML Email LS Receipt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300&display=swap" 
+  rel="stylesheet">
+    <style type="text/css">
+      table {border-spacing: 0;}
+
+      td {padding: 0;}
+
+      p {font-size: 15px;}
+
+      img {border: 0;}
+
+      /*@media only screen and (min-width: 960px) {
+      .container {width: 100% !important;}
+      .left-column {width: 33.33% !important;}
+      .middle-column {width: 33.33% !important;}
+      .right-column {width: 33.33% !important;}
+      }*/
+
+      @media screen and (max-width: 599.98px) { 
+      .container {width: 100%;}
+      .header-right {width: 40%;}
+      .info-table {width: 100% !important; text-align: center !important;}
+      .left-column {width: 100% !important; padding: 0 !important;}
+      .icon-table .clock-icon {padding-bottom: 20px !important; text-align: center !important;}
+      .middle-column {width: 100% !important; padding: 0 !important; text-align: center !important;}
+      .icon-table .location-pin {padding-right: 10px !important;}
+      .right-column {width: 100% !important; padding: 0 !important; text-align: center !important;}
+      .icon-table .in-store {padding-right: 15px !important;}
+      .itemized-bill {width: 100% !important;}
+      .ordered-item {text-align: left !important;}
+      .item-price {text-align: right !important;}
+    }
+      @media screen and (max-width: 399.98px) {
+      .container {width: 100%;}
+      .header-right {width: 40%;}
+      .info-table {width: 100% !important;}
+      .left-column {width: 100% !important; padding: 0 !important;}
+      .icon-table .clock-icon {padding-bottom: 20px !important; text-align: center !important;}
+      .middle-column {width: 100% !important; padding: 0 !important; text-align: center !important;}
+      .icon-table .location-pin {padding-right: 10px !important;}
+      .right-column {width: 100% !important; padding: 0 !important; text-align: center !important;}
+      .icon-table .in-store {padding-right: 15px !important;}
+      .itemized-bill {width: 100% !important;}
+      .ordered-item {text-align: left !important;}
+      .item-price {text-align: right !important;}
+      }
+    </style>
+    <!--[if(gte mso 9)|(IE)]>
+    <style type="text/css">
+    table {border-collapse: collapse!important;}
+    </style>
+    <![endif]-->
+  </head>
+    <body style="Margin:0;padding:0;min-width:100%;background-color: white;">
+      <!--[if(gte mso 9)|(IE)]>
+      <style type="text/css">
+      body {background-color: #dde0e1!important;}
+      body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;} 
+      </style>
+      <![endif]-->
+      <!--Start if HTML Email-->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <!--[if(gte mso 9)|(IE)]>
+            <table width:"600" align="center" style="border-spacing: 0;color: #" role="presentation">
+            <tr>
+            <td style="padding:0;">
+            <![endif]-->
+            <!--Start of container-->
+            <table class="container" width="600" align="center" 
+            cellspacing="0" cellpadding="0" border="0" role="presentation">
+            <!--Start of header row-->
+              <tr>
+                <td>
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="300" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="header-left" align="left" width="50%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation">
+                    <tr>
+                      <td style="padding: 15px 0;">
+                        <img src="https://i.postimg.cc/qBYrTw85/Litlle-Ceasar-Icon.png" alt="little caesar icon" width="49">
+                      </td>
+                    </tr>
+                  </table>
+                  <!--End of Left column-->
+
+                  <!--Start of right column-->
+                  <!--[if(gte mso 9)|(IE)]>
+                  <td width="300" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="header-right" align="right" width="50%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation">
+                    <tr> 
+                      <td style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;" align="right">
+                        <p style="font-size: 12px; font-weight: 300; 
+                        padding: 30px 0; color: #1d2228;">Transaction Reference #250357878</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+
+                  <!--End of right column-->
+                </td>
+              </tr>
+            <!--End of header row-->
+           
+            <!--Start of Sit tight row-->
+              <tr>
+                <td>
+                  <!--Start of right column-->
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="300" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="sit-tight" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation">
+                    <tr>
+                      <td style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;" align="center">
+                        <h2 style="font-size: 24px; font-weight: bold; 
+                        color: #ff6000; line-height: 28px;">Sit tight! We're making you something delicious.</h2>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+                </td>
+              </tr>
+              <!--End of Sit tight row-->
+
+              <!--Start of Amount Due row-->
+              <tr>
+                <!--[if(gte mso 9)|(IE)]>
+                <td width="100%" valign="top" style="padding: 0;">
+                <![endif]-->
+                <td align="center" class="amount-due" style="padding-bottom: 15px;">
+                  <h3 style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; text-align: center;
+                  font-size: 12px; font-weight: 600; color: black; Margin: 0;">Amount Due Upon Arrival: $43.99</h3>
+                </td>
+                <!--[if(gte mso 9)|(IE)]>
+                </td>
+                <![endif]--> 
+              </tr>
+              <!--End of Amoundt due row-->
+
+              <!--Start of Pizza Image row-->
+              <tr>
+                <!--[if(gte mso 9)|(IE)]>
+                <td width="100%" valign="bottom" style="padding-top: 20px;">
+                <![endif]-->
+                <td align="center" valign="bottom" style="Margin: 0; padding: 0; vertical-align: bottom;">
+                  <img src="https://i.postimg.cc/D0t3PfvT/Pizza-and-Breadsticks.png" 
+                  alt="pizza and breadsticks" width="210" style="display: block;">
+                </td>
+                <!--[if(gte mso 9)|(IE)]>
+                </td>
+                <![endif]--> 
+              </tr>
+              <!--End of Pizza Image row-->
+
+              <!--Start of Info table row-->
+              <tr>
+                <td>
+                  <table style="background: #efefef;"
+                  class="info-table" width="100%" align="center" 
+                  cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="info-table" style="padding: 0 0 20px 25px;"><!--Add padding to this td to enalrge box/area-->
+                        <!--Start of Left column row-->
+                        <table class="left-column" width="33.33%" align="left" 
+                        cellspacing="0" cellpadding="0" border="0" style="vertical-align: top; Margin: 0;">
+                          <tr>
+                            <td align="center">
+                              <!--Start of Icon table-->
+                              <table class="icon-table" width="175px" align="center" 
+                              cellspacing="0" cellpadding="0" border="0" style="Margin: 0;">
+                                  <td style="padding-right: 10px;" class="gray-table-info" align="center">
+                                  <img src="https://i.postimg.cc/GpQrn1QF/Clock-Icon.png" alt="checkmark icon" width="24" 
+                                  style="line-height: 26px; padding-top: 15px; padding-bottom: 20px; display: block;" class="clock-icon">
+                                  </td>
+                                  <td style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+                                  color: #333333; padding-top: 20px;
+                                  font-weight: 600; font-size: 12px; text-align: left; display: block;" class="gray-table-info" align="center">
+                                  Estimated Pickup Time:
+                                  <br>
+                                  04:11 PM - 04:16 PM on
+                                  09/25
+                                  </td>
+                              </table>
+                              <!--End of Icon table-->
+                            </td>
+                          </tr>
+                        </table>
+                        <!--End of left-column-->
+                         <!--Start of middle-column row-->
+                         <table class="middle-column" width="33.33%" align="left" 
+                         cellspacing="0" cellpadding="0" border="0" style="vertical-align: top; Margin: 0">
+                           <tr>
+                             <td>
+                               <!--Start of Icon table-->
+                               <table class="icon-table" width="175px" align="center" 
+                               cellspacing="0" cellpadding="0" border="0">
+                                   <td style="padding-right: 10px; padding-bottom: 13px;" align="center" class="location-pin">
+                                   <img src="https://i.postimg.cc/k4gCnh1k/Location-Pin-Icon.png" alt="location pin icon" 
+                                   width="22">
+                                   </td>
+                                   <td style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+                                   color: #333333; padding-top: 20px;
+                                   font-weight: bold; font-size: 12px; text-align: left;" align="center" class="gray-table-info">
+                                   	7355 FLORENCE AVENUE
+                                    <br>
+                                    DOWNEY, CA 90240
+                                    <br>
+                                    (562) 927-8129
+                                   </td>
+                               </table>
+                               <!--End of Icon table-->
+                             </td>
+                           </tr>
+                         </table>
+                         <!--End of middle-column-->
+                          <!--Start of right-column row-->
+                        <table class="right-column" width="33.33%" align="right" 
+                        cellspacing="0" cellpadding="0" border="0" style="vertical-align: top;">
+                          <tr>
+                            <td>
+                              <!--Start of Icon table-->
+                              <table class="icon-table" width="175px" align="center"
+                              cellspacing="0" cellpadding="0" border="0" valign="top">
+                                  <td>
+                                  <img class="money-icon" src="https://i.postimg.cc/k4YmDFLD/Money-Icon.png" 
+                                  alt="money icon" width="24" style="padding-top: 20px; line-height: 26px; display: block;" align="center">
+                                  </td>
+                                  <td style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+                                  color: #333333; padding-top: 15px;
+                                  font-weight: 600; font-size: 12px; text-align: left; display: block;" class="in-store" align="center">
+                                  In-store Pickup
+                                  </td>
+                              </table>
+                              <!--End of Icon table-->
+                            </td>
+                          </tr>
+                        </table>
+                        <!--End of right-column-->
+                        <!--[if(gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]--> 
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--End of Info table row-->
+
+              <!--Start of order placed row-->
+              <tr>
+                <td>
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="600" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="sit-tight" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 20px 0;">
+                    <tr>
+                      <td width="20%" class="td-line"><hr></td>
+                      <td align="center" style="color: black; font-weight: bold;
+                      font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;">Order Placed September 25, 2023</td>
+                      <td width="20%" class="td-line"><hr></td>
+                    </tr>
+                  </table>
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+                </td>
+              </tr>
+              <!--End of order placed row-->
+
+              <!--Start of Sit tight row-->
+              <tr>
+                <td>
+                  <!--Start of order placed column-->
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="600" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="sit-tight" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 10x 0;">
+                    <tr>
+                      <td align="center" style="color: black; font-weight: bold; font-size: 13px; 
+                      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;">In-store Pickup Instructions
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="color: black; font-size: 12px; 
+                      font-family: Helveitica Neue, Helvetica, Arial, sans-serif; padding-top: 3px;">
+                      Share your name and order number with the employee at the counter. Pay and enjoy!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="font-size: 12px; font-weight: bold; 
+                      font-family: Helveitica Neue, Helvetica, Arial, sans-serif; padding-top: 10px;">
+                      <a href="https://littlecaesars.com/en-us/order/202309256ce6184332452249/track/"
+                      style="text-decoration: none; color: #ff6000;">Track Your Order</a>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+                </td>
+              </tr>
+              <!--End of order placed row-->
+
+              <!--Start of order receipt row-->
+              <tr>
+                <td>
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="600" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="sit-tight" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation">
+                    <tr>
+                      <td align="left" style="color: black; font-weight: bold;
+                      font-size: 13px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                      ">Order Receipt</td>
+                    </tr>
+                  </table>
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+                </td>
+              </tr>
+              <!--End of order receipt row-->
+
+              <!--Start of order items row-->
+              <tr>
+                <td>
+                  <!--[if(gte mso 9)|(IE)]>
+                  <table width="100%" style="border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                  <td width="600" valign="top" style="padding: 0;">
+                  <![endif]--> 
+                  <table class="itemized-bill"  width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 10px;">
+                    <tr>
+                      <td class="item-ordered" align="left" style="color: black;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+                      ">(1) 5 Meat Feast™ (2830 cal)</td>
+                      <td class="item-price" align="right" style="color: black; font-weight: bold;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+                      ">
+                      $12.00
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="itemized-bill" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 10px;">
+                    <tr>
+                      <td class="item-ordered" align="left" style="color: black;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; text-align: left;
+                      ">(1) Detroit-Style Deep Dish 3 Meat Treat® (3480 cal)</td>
+                      <td class="item-price" align="right" style="color: black; font-weight: bold;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;text-align: right;
+                      ">
+                      $12.00
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="itemized-bill" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 10px;">
+                    <tr>
+                      <td class="item-ordered" align="left" style="color: black;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; text-align: left;
+                      ">(1) Two Caesar Wings® Special [16 wings] (1020 cal)</td>
+                      <td class="item-price" align="right" style="color: black; font-weight: bold;
+                      font-size: 12px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; text-align: right;
+                      ">
+                      $15.99
+                      </td>
+                    </tr>
+                  </table>
+                  <!--Start of itemized section-->
+                  <table class="sit-tight" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding-left: 25px;">
+                    <tr>
+                      <td align="left" style="color: gray;
+                      font-size: 10px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                      ">Caesar Wings® - Buffalo</td>
+                      </tr>
+                      <tr>
+                      <td align="left" style="color: gray;
+                      font-size: 10px; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;">
+                      Caesar Wings® - Buffalo</td>
+                    </tr>
+                  </table>
+                  <!--End of itemized section-->
+                  <!--[if(gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]--> 
+                </td>
+              </tr>
+              <!--End of order items row-->
+
+              <!--Start of full row line-->
+              <tr>
+                <td>
+                  <table class="" align="center" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding: 10px 0;">
+                    <tr>
+                      <td width="100%"><hr></td>
+                    </tr>
+                  </table> 
+                </td>
+              </tr>
+              <!--End of full row line-->
+
+              <!--Start of pay at store row-->
+              <tr>
+                <td>
+                  <table class="" align="left" width="100%" cellspacing="0"
+                   cellpadding="0" border="0" role="presentation" style="padding-left: 25px; vertical-align: middle; color: black;">
+                    <tr>
+                      <td valign="middle" style="vertical-align: middle;">
+                        <img src="https://i.postimg.cc/Xv33PvwN/Orange-money-icon.png" alt="orange money icon">
+                        <span align="left" style="font-size: 12px; font-weight: bold;">&nbsp;&nbsp;&nbsp;Pay at Store</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="total-price" align="right" width="100%" cellspacing="0"
+                        cellpadding="0" border="0" role="presentation" style="padding-right: 25px;">
+                          <tr>
+                            <td>
+                              <table class="total-price" align="right" width="40%" cellspacing="0"
+                              cellpadding="0" border="0" role="presentation" style="padding-right: 25px; 
+                              line-height: 16px; max-width: 140px;">
+                                <td style="font-size: 11px; width: 75%;">Subtotal</td>
+                                <td style="text-align: right; font-size: 11px;">$39.99</td>
+                              </table>
+                            </td>
+                          </tr>
+                        </table> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table class="total-price" align="right" width="100%" cellspacing="0"
+                        cellpadding="0" border="0" role="presentation" style="padding-right: 25px;">
+                          <tr>
+                            <td>
+                              <table class="total-price" align="right" width="40%" cellspacing="0"
+                              cellpadding="0" border="0" role="presentation" style="padding-right: 25px; 
+                              line-height: 16px; max-width: 140px;">
+                                <td style="font-size: 11px; width: 75%;">Tax</td>
+                                <td style="text-align: right; font-size: 11px;">$4.00</td>
+                              </table>
+                            </td>
+                          </tr>
+                        </table> 
+                      </td>
+                    </tr>
+                    <!--Start of order total row-->
+                    <tr>
+                      <td>
+                        <table class="total-price" align="right" width="100%" cellspacing="0"
+                        cellpadding="0" border="0" role="presentation" style="padding-right: 25px;">
+                          <tr>
+                            <td>
+                              <table class="total-price" align="right" width="40%" cellspacing="0"
+                              cellpadding="0" border="0" role="presentation" style="padding-right: 25px; 
+                              line-height: 16px; max-width: 140px;">
+                                <td style="font-size: 12px; width: 75%; font-weight: bold;
+                                padding-top: 10px">Order Total</td>
+                                <td style="text-align: right; font-size: 12px; font-weight: bold;
+                                padding-top: 10px">$43.99</td>
+                              </table>
+                            </td>
+                          </tr>
+                        </table> 
+                      </td>
+                    </tr>
+                    <!--End of order total row-->
+
+                    <!--Start of get it delivered row-->
+                  </table>
+                  <table class="total-price" align="right" width="100%" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation" style="padding: 25px 25px 20px 0;">
+                    <td align="right">
+                      <img src="https://i.postimg.cc/nrstm9t2/Get-it-delivered-icon.png" alt="Get it delivered">
+                    </td>
+                  </table>
+                </td>
+              </tr>
+              <!--End of get it delivered row-->
+
+              <!--Start of footer-->
+              <tr>
+                <td>
+                  <table class="total-price" align="center" width="100%" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation" style="line-height: normal; color: black;">
+                    <td style="font-size: 10px; font-weight: bold;
+                    padding-bottom: 10px; text-align: center;"
+                    align="center">Store Order ID: 1019321 • Store Location Number: 8536 • Order Number: 205</td>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 0;">
+                  <table class="total-price" align="center" width="400" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation" style="line-height: normal;">
+                    <td style="font-size: 10px;
+                    text-align: center; color: #ff6000;" width="100px"
+                    align="center"><a href="https://littlecaesars.com/en-us/legal/terms-of-service/"
+                    style="color: #ff6000;">Terms and Conditions</a></td>
+                    <td style="font-size: 10px;
+                    text-align: center; color: #ff6000;" width="100px"
+                    align="center"><a href="https://littlecaesars.com/en-us/legal/privacy-policy/" style="color: #ff6000;">
+                    Privacy Policy</a></td>
+                    <td style="font-size: 10px; text-align: center;" width="100px"
+                    align="center"><a href="https://littlecaesars.com/en-us/legal/privacy-policy/#s11" style="color: #ff6000;">
+                    California Privacy Policy</a></td>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 10px;">
+                  <table class="total-price" align="center" width="100%" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation"; 
+                  line-height: normal;">
+                    <td style="font-size: 10px;
+                    text-align: center;"
+                    align="center">WANT ACCESS TO EXCLUSIVE OFFERS? Go to LittleCaesars.com/eclub and subscribe for
+                    <br> 
+                    promotions and NEW Crazy!Crazy!® Deals</td>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 10px;">
+                  <table class="total-price" align="center" width="100%" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation" style="padding-right: 25px; 
+                  line-height: normal;">
+                    <td style="font-size: 10px; text-align: center;"
+                    align="center">Now Hiring Store Jobs. <a href="https://littlecaesars.com/en-us/job-search/" 
+                    style="color: #ff6000;">Apply Now!</a></td>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 30px;">
+                  <table class="total-price" align="center" width="100%" cellspacing="0"
+                  cellpadding="0" border="0" role="presentation" style="padding-right: 25px; 
+                  line-height: normal;">
+                    <p style="font-size: 10px; text-align: center; Margin: 0;"
+                    align="center">*** This is an automatically generated email, please do not reply ***</p>
+                    <p style="font-size: 10px; text-align: center;  Margin: 0;"
+                    align="center">This email was sent to Osaucedo96@yahoo.com by Little Caesar Enterprises, Inc.,</p>
+                    <p style="font-size: 10px; text-align: center;  Margin: 0;"
+                    align="center">2211 Woodward Ave., Detroit, MI 48201.</p>
+                </td>
+              </tr>
+              <!--End of footer-->
+
+            </table>
+            <!--End of container-->
+            <!--[if(gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+      <!--End of HTML Email-->
+    </body>
+</html>
+
+
+
